@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST"
-    onsubmit="onSubmit()">
-      <fieldset>
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+      onsubmit="onSubmit()"
+    >
+      <fieldset class="fieldset">
         <legend>Personal information</legend>
 
         <div class="form-field">
@@ -48,9 +51,11 @@
         </div>
         <div class="form-field">
           <label for="birthday">Full date of birth:</label>
-          <input type="date" name="birthday"
-          id="birthday"
-          size="20"
+          <input
+            type="date"
+            name="birthday"
+            id="birthday"
+            size="20"
           >
         </div>
         <div class="form-field">
@@ -59,7 +64,7 @@
           id="term">
         </div>
       </fieldset>
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Registration</legend>
         <div class="form-field">
           <label for="email">E-mail:</label>
@@ -83,7 +88,7 @@
           >
         </div>
       </fieldset>
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
           Do you love cats?
@@ -127,7 +132,7 @@
           >
         </div>
       </fieldset>
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Additional info:</legend>
         <div class="form-field">
           <label for="comments">Comments:</label>

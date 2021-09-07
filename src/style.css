@@ -1,9 +1,9 @@
 /* styles go here */
-fieldset {
+.fieldset {
   margin-bottom: 20px;
 }
 
-fieldset:last-child {
+.fieldset:last-child {
   margin-bottom: 0;
 }
 
